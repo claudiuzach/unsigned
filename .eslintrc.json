@@ -4,6 +4,9 @@
     "react-hooks/rules-of-hooks": "off", // Disable rule for hooks usage
     "@typescript-eslint/no-unused-vars": "off", // Disable rule for unused variables
     "@typescript-eslint/no-explicit-any": "off", // Disable rule for `any` type usage
-    "@typescript-eslint/no-non-null-assertion": "off" // Disable rule for non-null assertions
+    "@typescript-eslint/no-non-null-assertion": "off" ,// Disable rule for non-null assertions
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off"
+
+    
   }
 }
