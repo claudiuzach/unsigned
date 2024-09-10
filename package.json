@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && eslint . --ignore-path .gitignore --quiet",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@clerk/nextjs": "^5.4.1",
